@@ -22,7 +22,8 @@ API REST para gestão simplificada de vendas, produtos e stock desenvolvida em P
 1. Clone o repositório:
 ```bash
 git clone [https://github.com/seu-usuario/mini-erp-api.git](https://github.com/seu-usuario/mini-erp-api.git)
-cd mini-erp-api```
+cd mini-erp-api
+```
 
 Crie e ative o ambiente virtual:
 ```bash
@@ -30,24 +31,29 @@ python -m venv venv
 # Windows:
 .\venv\Scripts\Activate.ps1
 # Linux/Mac:
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 Instale as dependências:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 Suba a base de dados PostgreSQL via Docker:
 ```bash
-docker-compose up -d```
+docker-compose up -d
+```
 
 Inicie a aplicação:
 ```bash
-python -m uvicorn app.main:app --reload```
+python -m uvicorn app.main:app --reload
+```
 
 Aceda à documentação interativa em: http://127.0.0.1:8000/docs
 
 🧪 Como Executar os Testes
 
 ```bash
-pytest```
+pytest
+```
 
